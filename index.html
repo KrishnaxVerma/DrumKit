@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bgimg">
+        <img src="background.png" alt="">
+    </div>
+    <div class="shade" ></div>
+
+    <div class="main">
+        <h1>DRUM<span>KIT</span></h1>
+
+        <div class="container">
+            <div class="key" data-btn="A">A</div>
+            <div class="key" data-btn="S">S</div>
+            <div class="key" data-btn="D">D</div>
+            <div class="key" data-btn="F">F</div>
+            <div class="key" data-btn="G">G</div>
+            <div class="key" data-btn="H">H</div>
+            <div class="key" data-btn="J">J</div>
+            <div class="key" data-btn="K">K</div>
+            <div class="key" data-btn="L">L</div>
+        </div>
+    </div>
+
+    <div class="allaudio">
+        <audio data-btn="A" src="sound/boom.wav"></audio>
+        <audio data-btn="S" src="sound/clap.wav"></audio>
+        <audio data-btn="D" src="sound/hihat.wav"></audio>
+        <audio data-btn="F" src="sound/kick.wav"></audio>
+        <audio data-btn="G" src="sound/openhat.wav"></audio>
+        <audio data-btn="H" src="sound/ride.wav"></audio>
+        <audio data-btn="J" src="sound/snare.wav"></audio>
+        <audio data-btn="K" src="sound/tink.wav"></audio>
+        <audio data-btn="L" src="sound/tom.wav"></audio>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
